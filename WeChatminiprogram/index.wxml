@@ -1,0 +1,33 @@
+<view class="container">
+  <view class="header">
+    <text class="title">Smart Light</text>
+    <text class="subtitle">自動化照明控制</text>
+  </view>
+
+  <view class="card">
+    <view class="card-title">Dashboard</view>
+    <view class="data-row">
+      <view class="data-item">
+        <text class="label">Lux</text>
+        <text class="value lux">{{lux}} lx</text>
+      </view>
+      <view class="data-item">
+        <text class="label">Radar</text>
+        <text class="value {{person ? 'alert' : 'safe'}}">{{person ? '有人 🚶' : '无人 🟩'}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">System</view>
+    <view class="control-row">
+      <text class="status-text">{{systemState ? '🟢 on' : '🔴 off'}}</text>
+      <switch checked="{{systemState}}" bindchange="toggleSystem" color="#007BFF"/>
+    </view>
+    
+    <view class="progress-section">
+      <text class="label">Power: {{pwmPercent}}%</text>
+      <progress percent="{{pwmPercent}}" border-radius="5" activeColor="#007BFF" backgroundColor="#e9ecef" stroke-width="12" />
+    </view>
+  </view>
+</view>

@@ -1,0 +1,82 @@
+page {
+  background-color: #f4f7f6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 25px;
+}
+
+.title {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #888;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.03);
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.data-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.value {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.lux { color: #f39c12; }
+.alert { color: #e74c3c; }
+.safe { color: #2ecc71; }
+
+.control-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.status-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.progress-section {
+  margin-top: 10px;
+}
