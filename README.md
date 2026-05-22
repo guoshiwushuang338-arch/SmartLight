@@ -1,7 +1,7 @@
 # SmartLight
 My bachelor graduation project
 
-readme_content = """# Automated Lighting Control: An Adaptive IoT System with PID Optimization
+"""# Automated Lighting Control: An Adaptive IoT System with PID Optimization
 
 An advanced, closed-loop smart micro-scale lighting system that dynamically balances energy conservation with ergonomic visual comfort. This edge-computing IoT system utilizes an ESP32 node to harvest natural daylight, achieving a stable, flicker-free dimming experience while significantly reducing power consumption.
 
